@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/TC01-Validation and Verify JSON Value GET List User","testCaseId":"Test Cases/TC01-Validation and Verify JSON Value GET List User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC02-Validation and Verify JSON Value GET Singgle User","testCaseId":"Test Cases/TC02-Validation and Verify JSON Value GET Singgle User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC03-Verify Response Status Code DELETE User","testCaseId":"Test Cases/TC03-Verify Response Status Code DELETE User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC04-Validation and Verify JSON Value PATCH Update User","testCaseId":"Test Cases/TC04-Validation and Verify JSON Value PATCH Update User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC05-Verify Response POST Create User","testCaseId":"Test Cases/TC05-Verify Response POST Create User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC06-Verify Response POST Login Successful","testCaseId":"Test Cases/TC06-Verify Response POST Login Successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC07-Verify Response POST Login - Unsuccessful","testCaseId":"Test Cases/TC07-Verify Response POST Login - Unsuccessful","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC08-Verify Response POST Register - Successful","testCaseId":"Test Cases/TC08-Verify Response POST Register - Successful","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC09-Verify Response POST Register - Unsuccessful","testCaseId":"Test Cases/TC09-Verify Response POST Register - Unsuccessful","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC10- Verify Response PUT Update","testCaseId":"Test Cases/TC10- Verify Response PUT Update","iterationVariableName":""}

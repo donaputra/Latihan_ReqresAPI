@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Latihan_APITesting,,,,2023-05-31 21:22:08,2023-05-31 21:23:11,1m - 2.979s,PASSED
+,,,,,,,
+Test Cases/TC01-Validation and Verify JSON Value GET List User,,,,2023-05-31 21:22:09,2023-05-31 21:22:22,13.120s,PASSED
+"sendRequest(findTestObject(""GET/GET List""))",,Mengirim Request,,2023-05-31 21:22:10,2023-05-31 21:22:17,6.915s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""GET/GET List""))",,Mengirim Request dan Verifikasi Response,,2023-05-31 21:22:17,2023-05-31 21:22:22,4.743s,PASSED
+"verifyResponseStatusCode(Response, 200)",,Verifikasi Response Status Code,,2023-05-31 21:22:22,2023-05-31 21:22:22,0.008s,PASSED
+"verifyElementsCount(Response, ""data.name"", 6)",,Verifikasi jumlah element yang ada pada JSON,,2023-05-31 21:22:22,2023-05-31 21:22:22,0.147s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].name"", ""cerulean"")",,Verifikasi element pada JSON,,2023-05-31 21:22:22,2023-05-31 21:22:22,0.157s,PASSED
+,,,,,,,
+Test Cases/TC02-Validation and Verify JSON Value GET Singgle User,,,,2023-05-31 21:22:22,2023-05-31 21:22:24,2.242s,PASSED
+"sendRequest(findTestObject(""GET/GET Single User""))",,Mengirim Request,,2023-05-31 21:22:23,2023-05-31 21:22:23,0.317s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""GET/GET Single User""))",,Mengirim Request dan Verifikasi,,2023-05-31 21:22:23,2023-05-31 21:22:24,0.793s,PASSED
+"verifyResponseStatusCode(Response, 200)",,Verifikasi Status Code,,2023-05-31 21:22:24,2023-05-31 21:22:24,0.008s,PASSED
+"verifyElementPropertyValue(Response, ""data.first_name"", ""Janet"")",,Verifikasi Elemen yang ada pada JSON,,2023-05-31 21:22:24,2023-05-31 21:22:24,0.048s,PASSED
+,,,,,,,
+Test Cases/TC03-Verify Response Status Code DELETE User,,Melakukan Validasi Response,,2023-05-31 21:22:24,2023-05-31 21:22:28,4.035s,PASSED
+"sendRequest(findTestObject(""DELETE/DELETE User""))",,Mengirim Request,,2023-05-31 21:22:25,2023-05-31 21:22:26,1.097s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""DELETE/DELETE User""), STOP_ON_FAILURE)",,Mengirin Request dan Verifikasi,,2023-05-31 21:22:26,2023-05-31 21:22:28,2.075s,PASSED
+"verifyResponseStatusCode(Response, 204)",,Verifikasi Response Status Code,,2023-05-31 21:22:28,2023-05-31 21:22:28,0.008s,PASSED
+,,,,,,,
+Test Cases/TC04-Validation and Verify JSON Value PATCH Update User,,,,2023-05-31 21:22:28,2023-05-31 21:22:35,6.498s,PASSED
+"sendRequest(findTestObject(""PATCH/PATCH Update""))",,Mengirin Request,,2023-05-31 21:22:30,2023-05-31 21:22:31,0.783s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""PATCH/PATCH Update""))",,Mengirim Request dan Verifikasi,,2023-05-31 21:22:31,2023-05-31 21:22:34,3.380s,PASSED
+"verifyResponseStatusCode(Response, 200)",,Verifikasi Response Status Code,,2023-05-31 21:22:34,2023-05-31 21:22:34,0.023s,PASSED
+"verifyElementsCount(Response, ""name"", 5)",,"Verifikasi jumlah element yang ada pada JSON
+",,2023-05-31 21:22:34,2023-05-31 21:22:35,0.116s,PASSED
+"verifyElementPropertyValue(Response, ""name"", ""Corla"")",,"Verifikasi Element yang ada pada JSON
+",,2023-05-31 21:22:35,2023-05-31 21:22:35,0.144s,PASSED
+,,,,,,,
+Test Cases/TC05-Verify Response POST Create User,,,,2023-05-31 21:22:35,2023-05-31 21:22:40,4.739s,PASSED
+"sendRequest(findTestObject(""POST/POST Create""))",,Mengirim Request,,2023-05-31 21:22:37,2023-05-31 21:22:38,1.024s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""POST/POST Create""))",,Mengirim Request dan Verifikasi,,2023-05-31 21:22:38,2023-05-31 21:22:40,1.669s,PASSED
+"verifyResponseStatusCode(Response, 201)",,Verifikasi Response Status Code,,2023-05-31 21:22:40,2023-05-31 21:22:40,0.008s,PASSED
+,,,,,,,
+Test Cases/TC06-Verify Response POST Login Successful,,,,2023-05-31 21:22:40,2023-05-31 21:22:55,15.875s,PASSED
+"sendRequest(findTestObject(""POST/POST Login - Successful""))",,Mengirim Request,,2023-05-31 21:22:41,2023-05-31 21:22:54,12.429s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""POST/POST Login - Successful""))",,"Mengirim Request dan Verifikasi
+",,2023-05-31 21:22:54,2023-05-31 21:22:55,1.880s,PASSED
+"verifyResponseStatusCode(Response, 200)",,Verifikasi Status Code,,2023-05-31 21:22:55,2023-05-31 21:22:55,0.008s,PASSED
+,,,,,,,
+Test Cases/TC07-Verify Response POST Login - Unsuccessful,,,,2023-05-31 21:22:55,2023-05-31 21:22:59,3.477s,PASSED
+"sendRequest(findTestObject(""POST/POST Login - Unsuccessful""))",,Mengirim Request,,2023-05-31 21:22:57,2023-05-31 21:22:58,0.685s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""POST/POST Login - Unsuccessful""))",,Mengirim Request dan Verifikasi,,2023-05-31 21:22:58,2023-05-31 21:22:59,1.278s,PASSED
+"verifyResponseStatusCode(Response, 400)",,"Verifikasi Response Status Code
+",,2023-05-31 21:22:59,2023-05-31 21:22:59,0.008s,PASSED
+,,,,,,,
+Test Cases/TC08-Verify Response POST Register - Successful,,,,2023-05-31 21:22:59,2023-05-31 21:23:02,2.845s,PASSED
+"sendRequest(findTestObject(""POST/POST Register - Successful""))",,Mengirim Request,,2023-05-31 21:23:00,2023-05-31 21:23:01,0.669s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""POST/POST Register - Successful""), STOP_ON_FAILURE)",,Mengirim Request dan Verifikasi,,2023-05-31 21:23:01,2023-05-31 21:23:02,1.216s,PASSED
+"verifyResponseStatusCode(Response, 200)",,Verifikasi Response Status Code,,2023-05-31 21:23:02,2023-05-31 21:23:02,0.008s,PASSED
+,,,,,,,
+Test Cases/TC09-Verify Response POST Register - Unsuccessful,,,,2023-05-31 21:23:02,2023-05-31 21:23:05,3.592s,PASSED
+"sendRequest(findTestObject(""POST/POST Register - Unsuccessful""))",,Mengirim Request,,2023-05-31 21:23:03,2023-05-31 21:23:03,0.644s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""POST/POST Register - Unsuccessful""))",,Mengirim Request dan Verifikasi,,2023-05-31 21:23:03,2023-05-31 21:23:05,1.960s,PASSED
+"verifyResponseStatusCode(Response, 400)",,Verifikasi Response Status Code,,2023-05-31 21:23:05,2023-05-31 21:23:05,0.028s,PASSED
+,,,,,,,
+Test Cases/TC10- Verify Response PUT Update,,,,2023-05-31 21:23:05,2023-05-31 21:23:11,5.559s,PASSED
+"sendRequest(findTestObject(""PUT/PUT Update""))",,Mengirim Request,,2023-05-31 21:23:08,2023-05-31 21:23:10,1.880s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""PUT/PUT Update""))",,Mengirim Request dan Verifikasi,,2023-05-31 21:23:10,2023-05-31 21:23:11,1.386s,PASSED
+"verifyResponseStatusCode(Response, 200)",,Verifikasi Response Status Code,,2023-05-31 21:23:11,2023-05-31 21:23:11,0.000s,PASSED
