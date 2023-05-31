@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06-Verify Response POST Login Successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0d23ae4-7add-4e87-858d-c9dd9f8eab14</testCaseGuid>
+</TestCaseEntity>

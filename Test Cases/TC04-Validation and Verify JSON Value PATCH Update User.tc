@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04-Validation and Verify JSON Value PATCH Update User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f12c813-9718-449d-93bb-7917dcfe879e</testCaseGuid>
+</TestCaseEntity>

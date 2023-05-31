@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-Validation and Verify JSON Value GET Singgle User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94f4bc25-bddc-4de1-801a-cb644344e58a</testCaseGuid>
+</TestCaseEntity>

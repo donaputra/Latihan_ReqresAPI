@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan Validasi Response</description>
+   <name>TC03-Verify Response Status Code DELETE User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91a3c1f9-2766-4257-a604-28f7cd7df8db</testCaseGuid>
+</TestCaseEntity>
